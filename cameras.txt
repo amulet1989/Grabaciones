@@ -1,0 +1,86 @@
+Bash
+# #############################
+# Lista de URL RTSP de las camaras tracking
+######################################################
+RTSP_URLS=(
+    "rtsp://admin:2Raffin001.@10.20.2.101"
+    "rtsp://admin:2Raffin001.@10.20.2.102"
+    "rtsp://admin:2Raffin001.@10.20.2.103"
+    "rtsp://admin:2Raffin001.@10.20.2.104"
+    "rtsp://admin:2Raffin001.@10.20.2.105"
+    "rtsp://admin:2Raffin001.@10.20.2.106"
+    "rtsp://admin:2Raffin001.@10.20.2.107"
+    "rtsp://admin:2Raffin001.@10.20.2.108"
+    "rtsp://admin:2Raffin001.@10.20.2.109"
+    "rtsp://admin:2Raffin001.@10.20.2.110"
+    "rtsp://admin:2Raffin001.@10.20.2.111"
+    "rtsp://admin:2Raffin001.@10.20.2.112"
+    "rtsp://admin:2Raffin001.@10.20.2.113"
+    "rtsp://admin:2Raffin001.@10.20.2.114"
+    "rtsp://admin:2Raffin001.@10.20.2.115"
+    "rtsp://admin:2Raffin001.@10.20.2.116"
+)
+
+# Nombres de las cámaras
+CAMARA_NOMBRES=(
+    "T01_1280x720"
+    "T02_1280x720"
+    "T03_1280x720"
+    "T04_1280x720"
+    "T05_1280x720"
+    "T06_1280x720"
+    "T07_1280x720"
+    "T08_1280x720"
+    "T09_1280x720"
+    "T10_1280x720"
+    "T11_1280x720"
+    "T12_1280x720"
+    "T13_1280x720"
+    "T14_1280x720"
+    "T15_1280x720"
+    "T16_1280x720" 
+)
+
+########################
+# Lista de URL RTSP de las camaras gondolas
+####################################################
+RTSP_URLS=(
+    "rtsp://admin:2Raffin001.@10.20.2.151"
+    "rtsp://admin:2Raffin001.@10.20.2.152"
+    "rtsp://admin:2Raffin001.@10.20.2.153"
+    "rtsp://admin:2Raffin001.@10.20.2.154"
+    "rtsp://admin:2Raffin001.@10.20.2.155"
+    "rtsp://admin:2Raffin001.@10.20.2.156"
+    "rtsp://admin:2Raffin001.@10.20.2.157"
+    "rtsp://admin:2Raffin001.@10.20.2.158"
+    "rtsp://admin:2Raffin001.@10.20.2.159"
+    "rtsp://admin:2Raffin001.@10.20.2.160"
+    "rtsp://admin:2Raffin001.@10.20.2.161"
+    "rtsp://admin:2Raffin001.@10.20.2.162"
+    "rtsp://admin:2Raffin001.@10.20.2.163"
+    "rtsp://admin:2Raffin001.@10.20.2.164"
+    "rtsp://admin:2Raffin001.@10.20.2.165"
+    "rtsp://admin:2Raffin001.@10.20.2.166"
+    "rtsp://admin:2Raffin001.@10.20.2.167"
+)
+
+# Nombres de las cámaras
+CAMARA_NOMBRES=(
+    "G01_1280x720"
+    "G02_1280x720"
+    "G03_1280x720"
+    "G04_1280x720"
+    "G05_1280x720"
+    "G06_1280x720"
+    "G07_1280x720"
+    "G08_1280x720"
+    "G09_1280x720"
+    "G10_1280x720"
+    "G11_1280x720"
+    "G12_1280x720"
+    "G13_1280x720"
+    "G14_1280x720"
+    "G15_1280x720"
+    "G16_1280x720"
+    "G17_1280x720" 
+   )
