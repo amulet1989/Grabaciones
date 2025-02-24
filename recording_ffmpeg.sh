@@ -4,7 +4,7 @@
 # DURACION_MINUTOS=1
 
 # Convertir duración a segundos
-DURACION_SEGUNDOS=30
+DURACION_SEGUNDOS=60
 
 # Directorio de salida
 DIRECTORIO_SALIDA="videos/grabaciones"
