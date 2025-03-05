@@ -34,7 +34,7 @@ for i in "${!RTSP_URLS[@]}"; do
     OUTPUT="${DIRECTORIO_SALIDA}/${NOMBRE_CAMARA}_${FECHA_HORA}.mp4"
     
     # Grabar en H264 (MP4) a 10 fps
-    ffmpeg -rtsp_transport tcp -i "$URL" -t "$DURACION_SEGUNDOS" -r 10 -c:v libx264 -preset fast -crf 23 -c:a aac -b:a 192k "$OUTPUT" &
+    ffmpeg -rtsp_transport udp -i "$URL" -t "$DURACION_SEGUNDOS" -r 10 -c:v libx264 -preset fast -crf 23 -c:a aac -b:a 192k "$OUTPUT" &
 done
 
 # Esperar a que todas las grabaciones finalicen
