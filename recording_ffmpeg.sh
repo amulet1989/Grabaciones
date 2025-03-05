@@ -4,7 +4,7 @@
 # DURACION_MINUTOS=1
 
 # Convertir duración a segundos
-DURACION_SEGUNDOS=60
+DURACION_SEGUNDOS=15
 
 # Directorio de salida
 DIRECTORIO_SALIDA="videos/grabaciones"
@@ -12,29 +12,17 @@ mkdir -p "$DIRECTORIO_SALIDA"
 
 # Lista de URL RTSP de las camaras gondolas
 RTSP_URLS=(
-    "rtsp://admin:2Mini001.@10.93.27.188/live1"  
-    "rtsp://admin:2Mini001.@10.93.27.189/h264/ch1/sub/av_stream"  
-    "rtsp://admin:2Mini001.@10.93.27.190/live1"  
-    "rtsp://admin:2Mini001.@10.93.27.191/h264/ch1/sub/av_stream"  
-    "rtsp://admin:2Mini001.@10.93.27.220/live1"  
-    "rtsp://admin:2Mini001.@10.93.27.221/live1"  
-    "rtsp://admin:2Mini001.@10.93.27.222/h264/ch1/sub/av_stream"  
-    "rtsp://admin:2Mini001.@10.93.27.224/h264/ch1/sub/av_stream"  
-    "rtsp://admin:2Mini001.@10.93.27.225/h264/ch1/sub/av_stream"  
+    "rtsp://admin:2Mini001.@10.93.27.192/h264/ch1/sub/av_stream" 
+    "rtsp://admin:2Mini001.@10.93.27.223/h264/ch1/sub/av_stream" 
+    "rtsp://admin:2Mini001.@10.93.27.238/h264/ch1/sub/av_stream"  
     
 )
 
 # Nombres de las cámaras
 CAMARA_NOMBRES=(
-    "QM_01_640"
-    "QM_02_640" 
-    "QM_03_640" 
-    "QM_04_640"
-    "QM_05_640"
-    "QM_06_640"
-    "QM_07_640"
-    "QM_08_640"
-    "QM_09_640" 
+    "CAJA_06_640"
+    "CAJA_07_640"
+    "CAJA_22_640"
 )
 # Obtener la fecha y hora actual en el formato "YYYY-MM-DD_HH-MM-SS"
 FECHA_HORA=$(date +"%Y-%m-%d_%H-%M-%S")
