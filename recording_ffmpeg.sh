@@ -12,17 +12,17 @@ mkdir -p "$DIRECTORIO_SALIDA"
 
 # Lista de URL RTSP de las camaras gondolas
 RTSP_URLS=(
-    "rtsp://admin:2Mini001.@10.93.27.192/h264/ch1/sub/av_stream" 
-    "rtsp://admin:2Mini001.@10.93.27.223/h264/ch1/sub/av_stream" 
-    "rtsp://admin:2Mini001.@10.93.27.238/h264/ch1/sub/av_stream"  
+    "rtsp://admin:2Mini001.@10.93.27.196/h264/ch1/sub/av_stream" 
+    "rtsp://admin:2Mini001.@10.93.27.229/h264/ch1/sub/av_stream" 
+    "rtsp://admin:2Mini001.@10.93.27.219/h264/ch1/sub/av_stream"  
     
 )
 
 # Nombres de las cámaras
 CAMARA_NOMBRES=(
-    "CAJA_06_640"
-    "CAJA_07_640"
-    "CAJA_22_640"
+    "CAJA_01_640"
+    "CAJA_02_640"
+    "CAJA_03_640"
 )
 # Obtener la fecha y hora actual en el formato "YYYY-MM-DD_HH-MM-SS"
 FECHA_HORA=$(date +"%Y-%m-%d_%H-%M-%S")
