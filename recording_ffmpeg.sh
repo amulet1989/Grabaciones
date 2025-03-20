@@ -6,8 +6,11 @@
 # Convertir duración a segundos
 DURACION_SEGUNDOS=120
 
+# Obtener la fecha y hora actual en el formato "YYYY-MM-DD_HH-MM-SS"
+FECHA_HORA=$(date +"%Y-%m-%d_%H-%M-%S")
+
 # Directorio de salida
-DIRECTORIO_SALIDA="videos/grabaciones"
+DIRECTORIO_SALIDA="videos/grabaciones_${FECHA_HORA}"
 mkdir -p "$DIRECTORIO_SALIDA"
 
 # Lista de URL RTSP de las camaras gondolas
@@ -73,8 +76,6 @@ CAMARA_NOMBRES=(
     "CAJA_27_640"
     "CAJA_28_640"
 )
-# Obtener la fecha y hora actual en el formato "YYYY-MM-DD_HH-MM-SS"
-FECHA_HORA=$(date +"%Y-%m-%d_%H-%M-%S")
 
 # Comenzar la grabación en paralelo para cada cámara
 for i in "${!RTSP_URLS[@]}"; do
