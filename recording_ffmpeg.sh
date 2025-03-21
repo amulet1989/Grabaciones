@@ -15,12 +15,8 @@ mkdir -p "$DIRECTORIO_SALIDA"
 
 # Lista de URL RTSP de las camaras gondolas
 RTSP_URLS=(
-    "rtsp://admin:2Mini001.@10.93.27.150/live1"  
     "rtsp://admin:2Mini001.@10.93.27.154/h264/ch1/sub/av_stream"  
-    "rtsp://admin:2Mini001.@10.93.27.190/live1"  
     "rtsp://admin:2Mini001.@10.93.27.191/h264/ch1/sub/av_stream"  
-    "rtsp://admin:2Mini001.@10.93.27.220/live1"  
-    "rtsp://admin:2Mini001.@10.93.27.221/live1"  
     "rtsp://admin:2Mini001.@10.93.27.222/h264/ch1/sub/av_stream"  
     "rtsp://admin:2Mini001.@10.93.27.224/h264/ch1/sub/av_stream"  
     "rtsp://admin:2Mini001.@10.93.27.225/h264/ch1/sub/av_stream"  
@@ -33,11 +29,7 @@ CAMARA_NOMBRES=(
     "QM_02_640" 
     "QM_03_640" 
     "QM_04_640"
-    "QM_05_640"
-    "QM_06_640"
-    "QM_07_640"
-    "QM_08_640"
-    "QM_09_640" 
+    "QM_05_640" 
 )
 
 # Comenzar la grabación en paralelo para cada cámara
