@@ -15,8 +15,8 @@ mkdir -p "$DIRECTORIO_SALIDA"
 
 # Lista de URL RTSP de las camaras gondolas
 RTSP_URLS=(
-    "rtsp://admin:2Mini001.@10.93.27.188/live1"  
-    "rtsp://admin:2Mini001.@10.93.27.189/h264/ch1/sub/av_stream"  
+    "rtsp://admin:2Mini001.@10.93.27.150/live1"  
+    "rtsp://admin:2Mini001.@10.93.27.154/h264/ch1/sub/av_stream"  
     "rtsp://admin:2Mini001.@10.93.27.190/live1"  
     "rtsp://admin:2Mini001.@10.93.27.191/h264/ch1/sub/av_stream"  
     "rtsp://admin:2Mini001.@10.93.27.220/live1"  
