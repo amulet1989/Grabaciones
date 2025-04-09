@@ -15,6 +15,7 @@ mkdir -p "$DIRECTORIO_SALIDA"
 
 # Lista de URL RTSP de las camaras gondolas
 RTSP_URLS=(
+    "rtsp://admin:2Mini001.@10.93.27.239/h264/ch1/sub/av_stream"
     "rtsp://admin:2Mini001.@10.93.27.240/live1"  
     "rtsp://admin:2Mini001.@10.93.27.241/live1" 
     "rtsp://admin:2Mini001.@10.93.27.242/live1" 
@@ -56,15 +57,16 @@ RTSP_URLS=(
 
 # Nombres de las cámaras
 CAMARA_NOMBRES=(
-    "QM_01_640"
-    "QM_02_640" 
-    "QM_03_640" 
-    "QM_04_640"
-    "QM_05_640"
-    "QM_06_640"
-    "QM_07_640"
-    "QM_08_640"
-    "QM_09_640" 
+    "QM_prioridad_640"
+    "QM_52_640"
+    "QM_62_640" 
+    "QM_71_640" 
+    "QM_122_640"
+    "QM_246_640"
+    "QM_247_640"
+    "QM_248_640"
+    "QM_249_640"
+    "QM_250_640" 
     "CAJA_01_640"
     "CAJA_02_640" 
     "CAJA_03_640" 
