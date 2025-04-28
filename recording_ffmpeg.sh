@@ -17,7 +17,7 @@ mkdir -p "$DIRECTORIO_SALIDA"
 RTSP_URLS=(
     "rtsp://admin:2Mini001.@10.93.27.239/h264/ch1/sub/av_stream"
     "rtsp://admin:2Mini001.@10.93.27.240/live1"  
-    "rtsp://admin:2Mini001.@10.93.27.241/live1" 
+    "rtsp://admin:2Mini001.@10.93.27.241/h264/ch1/sub/av_stream"  
     "rtsp://admin:2Mini001.@10.93.27.242/live1" 
     "rtsp://admin:2Mini001.@10.93.27.243/live1" 
     "rtsp://admin:2Mini001.@10.93.27.244/h264/ch1/sub/av_stream"  
